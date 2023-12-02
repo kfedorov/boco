@@ -2,11 +2,10 @@ import { fail, redirect } from '@sveltejs/kit';
 import { setError, superValidate } from 'sveltekit-superforms/server';
 import { auth } from '$lib/server/lucia';
 import { userSchema } from '$lib/config/zod-schemas';
-import { sendVerificationEmail } from '$lib/config/email-messages';
+// import { sendVerificationEmail } from '$lib/config/email-messages';
 
 const signUpSchema = userSchema.pick({
-	firstName: true,
-	lastName: true,
+	name: true,
 	email: true,
 	password: true,
 	terms: true
@@ -35,27 +34,20 @@ export const actions = {
 		//add user to db
 		try {
 			console.log('creating user');
-			const token = crypto.randomUUID();
-
 			const user = await auth.createUser({
-				primaryKey: {
+				key: {
 					providerId: 'emailpassword',
 					providerUserId: form.data.email,
 					password: form.data.password
 				},
 				attributes: {
 					email: form.data.email,
-					firstName: form.data.firstName,
-					lastName: form.data.lastName,
-					role: 'USER',
-					verified: false,
-					receiveEmail: true,
-					token: token
+					name: form.data.name
 				}
 			});
 
-			await sendVerificationEmail(form.data.email, token);
-			const session = await auth.createSession(user.userId);
+			// await sendVerificationEmail(form.data.email, token);
+			const session = await auth.createSession({ userId: user.userId, attributes: {} });
 			event.locals.auth.setSession(session);
 		} catch (e) {
 			console.error(e);

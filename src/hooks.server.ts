@@ -2,6 +2,10 @@ import { auth } from '$lib/server/lucia';
 import { redirect, type Handle } from '@sveltejs/kit';
 import type { HandleServerError } from '@sveltejs/kit';
 import log from '$lib/server/log';
+import { db } from './db/db';
+import { migrate } from 'drizzle-orm/better-sqlite3/migrator';
+
+migrate(db, { migrationsFolder: './drizzle' });
 
 export const handleError: HandleServerError = async ({ error, event }) => {
 	const errorId = crypto.randomUUID();
@@ -27,11 +31,14 @@ export const handle: Handle = async ({ event, resolve }) => {
 
 	event.locals.auth = auth.handleRequest(event);
 	if (event.locals?.auth) {
-		const { user } = await event.locals.auth.validateUser();
-		event.locals.user = user;
-		if (event.route.id?.startsWith('/(protected)')) {
-			if (!user) throw redirect(302, '/auth/sign-in');
-			if (!user.verified) throw redirect(302, '/auth/verify/email');
+		const session = await event.locals.auth.validate();
+
+		if (!session || !session.user) {
+			if (event.route.id?.startsWith('/(protected)')) {
+				throw redirect(302, '/auth/sign-in');
+			}
+		} else {
+			event.locals.user = session.user;
 		}
 	}
 

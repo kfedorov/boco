@@ -2,8 +2,7 @@
 	import { TabGroup, Tab } from '@skeletonlabs/skeleton';
 	import SignUp from '$lib/components/sign-up.svelte';
 	import SignIn from '$lib/components/sign-in.svelte';
-	import { goto } from '$app/navigation';
-	import { i } from '@inlang/sdk-js';
+	import * as m from '$paraglide/messages';
 	export let data;
 
 	//let tab: string = $page.params.tab;
@@ -12,8 +11,8 @@
 </script>
 
 <TabGroup justify="justify-center">
-	<Tab bind:group={tabSet} name="signInTab" value={'signIn'}>{i('signin')}</Tab>
-	<Tab bind:group={tabSet} name="signUpTab" value={'signUp'}>{i('signup')}</Tab>
+	<Tab bind:group={tabSet} name="signInTab" value={'signIn'}>{m.signin()}</Tab>
+	<Tab bind:group={tabSet} name="signUpTab" value={'signUp'}>{m.signup()}</Tab>
 	<!-- Tab Panels --->
 	<svelte:fragment slot="panel">
 		{#if tabSet === 'signIn'}

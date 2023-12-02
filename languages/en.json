@@ -14,24 +14,12 @@
 	"profile": "Profile",
 	"home": "Home",
 	"secured": "Protected",
-	"auth": {
-		"password": {
-			"reset": {
-				"success": {
-					"emailSent": "Password Reset Email Sent",
-					"checkEmail": "Check your email account for a link to reset your password. If it doesn’t appear within a few minutes, check your spam folder."
-				},
-				"resetProblem": "Reset Password Problem",
-				"sendResetEmail": "Send Password Reset Email"
-			},
-			"update": {
-				"success": {
-					"updated": "Password updated successfully"
-				},
-				"changePassword": "Change Your Password",
-				"passwordProblem": "Change Password Problem",
-				"updatePassword": "Update Password"
-			}
-		}
-	}
+	"ResetPasswordSent": "Password Reset Email Sent",
+	"ResetPasswordSuccessCheckEmail": "Check your email account for a link to reset your password. If it doesn’t appear within a few minutes, check your spam folder.",
+	"ResetPasswordProblem": "Reset Password Problem",
+	"SendResetEmail": "Send Password Reset Email",
+	"UpdatePasswordSuccess": "Password updated successfully",
+	"changePassword": "Change Your Password",
+	"passwordProblem": "Change Password Problem",
+	"updatePassword": "Update Password"
 }

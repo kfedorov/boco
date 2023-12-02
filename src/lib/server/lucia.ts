@@ -1,24 +1,24 @@
 // lib/server/lucia.ts
-import lucia from 'lucia-auth';
-import { sveltekit } from 'lucia-auth/middleware';
-import prisma from '@lucia-auth/adapter-prisma';
-import { PrismaClient } from '@prisma/client';
+import { lucia } from 'lucia';
+import { sveltekit } from 'lucia/middleware';
+import { betterSqlite3 } from '@lucia-auth/adapter-sqlite';
 import { dev } from '$app/environment';
+import { sqliteDatabase } from '../../db/db';
 
 export const auth = lucia({
-	adapter: prisma(new PrismaClient()),
+	adapter: betterSqlite3(sqliteDatabase, {
+		user: 'user',
+		key: 'user_key',
+		session: 'user_session'
+	}),
 	env: dev ? 'DEV' : 'PROD',
 	middleware: sveltekit(),
-	transformDatabaseUser: (userData) => {
+	getUserAttributes: (data) => {
 		return {
-			userId: userData.id,
-			email: userData.email,
-			firstName: userData.firstName,
-			lastName: userData.lastName,
-			role: userData.role,
-			verified: userData.verified,
-			receiveEmail: userData.receiveEmail,
-			token: userData.token
+			// IMPORTANT!!!!
+			// `userId` included by default!!
+			name: data.name,
+			email: data.email
 		};
 	}
 });

@@ -8,8 +8,7 @@
 	export let data;
 
 	const signUpSchema = userSchema.pick({
-		firstName: true,
-		lastName: true,
+		name: true,
 		email: true
 	});
 
@@ -52,37 +51,18 @@
 		<label class="label">
 			<span class="">First Name</span>
 			<input
-				id="firstName"
-				name="firstName"
+				id="name"
+				name="name"
 				type="text"
 				placeholder="First Name"
 				autocomplete="given-name"
-				data-invalid={$errors.firstName}
-				bind:value={$form.firstName}
+				data-invalid={$errors.name}
+				bind:value={$form.name}
 				class="input"
-				class:input-error={$errors.firstName}
+				class:input-error={$errors.name}
 			/>
-			{#if $errors.firstName}
-				<small>{$errors.firstName}</small>
-			{/if}
-		</label>
-	</div>
-	<div class="mt-6">
-		<label class="label">
-			<span class="">Last Name</span>
-			<input
-				id="lastName"
-				name="lastName"
-				type="text"
-				placeholder="Last Name"
-				autocomplete="family-name"
-				data-invalid={$errors.lastName}
-				bind:value={$form.lastName}
-				class="input"
-				class:input-error={$errors.lastName}
-			/>
-			{#if $errors.lastName}
-				<small>{$errors.lastName}</small>
+			{#if $errors.name}
+				<small>{$errors.name}</small>
 			{/if}
 		</label>
 	</div>

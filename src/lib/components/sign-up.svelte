@@ -4,12 +4,11 @@
 	import { userSchema } from '$lib/config/zod-schemas';
 	import { ConicGradient } from '@skeletonlabs/skeleton';
 	import type { ConicStop } from '@skeletonlabs/skeleton';
-	import { i } from '@inlang/sdk-js';
+	import * as m from '$paraglide/messages';
 	export let data;
 
 	const signUpSchema = userSchema.pick({
-		firstName: true,
-		lastName: true,
+		name: true,
 		email: true,
 		password: true
 	});
@@ -33,50 +32,31 @@
 	<!--<SuperDebug data={$form} />-->
 	<div class="mt-6">
 		<label class="label">
-			<span class="sr-only">{i('First Name')}</span>
+			<span class="sr-only">{m.lastName()}</span>
 			<input
-				id="firstName"
-				name="firstName"
+				id="name"
+				name="name"
 				type="text"
-				placeholder={i('firstName')}
-				autocomplete="given-name"
-				data-invalid={$errors.firstName}
-				bind:value={$form.firstName}
+				placeholder={m.lastName()}
+				autocomplete="name"
+				data-invalid={$errors.name}
+				bind:value={$form.name}
 				class="input"
-				class:input-error={$errors.firstName}
+				class:input-error={$errors.name}
 			/>
-			{#if $errors.firstName}
-				<small>{$errors.firstName}</small>
+			{#if $errors.name}
+				<small>{$errors.name}</small>
 			{/if}
 		</label>
 	</div>
 	<div class="mt-6">
 		<label class="label">
-			<span class="sr-only">{i('lastName')}</span>
-			<input
-				id="lastName"
-				name="lastName"
-				type="text"
-				placeholder={i('lastName')}
-				autocomplete="family-name"
-				data-invalid={$errors.lastName}
-				bind:value={$form.lastName}
-				class="input"
-				class:input-error={$errors.lastName}
-			/>
-			{#if $errors.lastName}
-				<small>{$errors.lastName}</small>
-			{/if}
-		</label>
-	</div>
-	<div class="mt-6">
-		<label class="label">
-			<span class="sr-only">{i('email')}</span>
+			<span class="sr-only">{m.email()}</span>
 			<input
 				id="email"
 				name="email"
 				type="email"
-				placeholder={i('email')}
+				placeholder={m.email()}
 				autocomplete="email"
 				data-invalid={$errors.email}
 				bind:value={$form.email}
@@ -91,12 +71,12 @@
 
 	<div class="mt-6">
 		<label class="label">
-			<span class="sr-only">{i('password')}</span>
+			<span class="sr-only">{m.password()}</span>
 			<input
 				id="password"
 				name="password"
 				type="password"
-				placeholder={i('password')}
+				placeholder={m.password()}
 				data-invalid={$errors.password}
 				bind:value={$form.password}
 				class="input"
@@ -123,9 +103,11 @@
 	</div>
 	<div class="mt-6">
 		<button type="submit" disabled={!termsAccept} class="btn variant-filled-primary w-full"
-			>{#if $delayed}<ConicGradient stops={conicStops} spin width="w-6" />{:else}{i(
-					'signup'
-				)}{/if}</button
+			>{#if $delayed}<ConicGradient
+					stops={conicStops}
+					spin
+					width="w-6"
+				/>{:else}{m.signup()}{/if}</button
 		>
 	</div>
 </form>

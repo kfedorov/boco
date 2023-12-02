@@ -1,13 +1,9 @@
 import { z } from 'zod';
 
 export const userSchema = z.object({
-	firstName: z
+	name: z
 		.string({ required_error: 'First Name is required' })
 		.min(1, { message: 'First Name is required' })
-		.trim(),
-	lastName: z
-		.string({ required_error: 'Last Name is required' })
-		.min(1, { message: 'Last Name is required' })
 		.trim(),
 	email: z
 		.string({ required_error: 'Email is required' })
@@ -24,11 +20,7 @@ export const userSchema = z.object({
 	role: z
 		.enum(['USER', 'PREMIUM', 'ADMIN'], { required_error: 'You must have a role' })
 		.default('USER'),
-	verified: z.boolean().default(false),
-	token: z.string().optional(),
-	receiveEmail: z.boolean().default(true),
-	createdAt: z.date().optional(),
-	updatedAt: z.date().optional()
+	verified: z.boolean().default(false)
 });
 
 export const userUpdatePasswordSchema = userSchema

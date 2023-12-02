@@ -2,10 +2,9 @@
 	import { ConicGradient } from '@skeletonlabs/skeleton';
 	import type { ConicStop } from '@skeletonlabs/skeleton';
 	import { superForm } from 'sveltekit-superforms/client';
-	//import SuperDebug from 'sveltekit-superforms/client/SuperDebug.svelte';
 	import { userSchema } from '$lib/config/zod-schemas';
 	import { AlertTriangle } from 'lucide-svelte';
-	import { i } from '@inlang/sdk-js';
+	import * as m from '$paraglide/messages';
 	export let data;
 	const resetPasswordSchema = userSchema.pick({ email: true });
 	const { form, errors, enhance, delayed } = superForm(data.form, {
@@ -31,14 +30,14 @@
 			<div><AlertTriangle size="42" /></div>
 			<!-- Message -->
 			<div class="alert-message">
-				<h3 class="h3">{i('auth.password.reset.resetProblem')}</h3>
+				<h3 class="h3">{m.ResetPasswordProblem()}</h3>
 				<p>{$errors._errors}</p>
 			</div>
 		</aside>
 	{/if}
 	<div class="mt-6">
 		<label class="label">
-			<span class="sr-only">{i('email')}</span>
+			<span class="sr-only">{m.email()}</span>
 			<input
 				id="email"
 				name="email"
@@ -61,7 +60,7 @@
 			>{#if $delayed}
 				<ConicGradient stops={conicStops} spin width="w-6" />
 			{:else}
-				{i('auth.password.reset.sendResetEmail')}
+				{m.SendResetEmail()}
 			{/if}</button
 		>
 	</div>
