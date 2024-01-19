@@ -9,6 +9,8 @@
 </script>
 
 <TabGroup justify="justify-center">
+	Allo monde!
+
 	<Tab bind:group={tabSet} name="signInTab" value={'signIn'}>{signin()}</Tab>
 	<Tab bind:group={tabSet} name="signUpTab" value={'signUp'}>{signup()}</Tab>
 	<!-- Tab Panels --->
