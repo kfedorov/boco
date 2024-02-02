@@ -4,5 +4,5 @@
 	export let data: PageData;
 </script>
 
-<h1>Welcome to Boco {data.user.name}</h1>
+<h1>Welcome to Boco {data.user?.name ?? 'Inconnu'}</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
