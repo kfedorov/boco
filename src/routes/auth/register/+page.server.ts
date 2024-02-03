@@ -3,7 +3,7 @@ import { fail, redirect } from '@sveltejs/kit';
 import { db } from '$lib/db';
 import { users } from '$lib/dbSchema';
 import { Argon2id } from 'oslo/password';
-import { lucia } from '$lib/server/auth';
+import { generateEmailVerificationCode, lucia } from '$lib/server/auth';
 import { generateId } from 'lucia';
 import { sendMail } from '$lib/mail';
 
@@ -41,7 +41,7 @@ export const actions = {
 		try {
 			await db.insert(users).values({
 				id: userId,
-				email: email,
+				email,
 				hashedPassword,
 				username
 			});
@@ -54,16 +54,18 @@ export const actions = {
 				...sessionCookie.attributes
 			});
 
+			const verificationCode = await generateEmailVerificationCode(userId, email);
+
 			await sendMail(
 				email,
 				'Nouveau Compte',
-				`Félicitations! ${username}`,
-				"<div style='color:red'>Félicitations</div>"
+				`Félicitations ${username}! Voici votre code: ${verificationCode}`,
+				`Félicitations ${username} voici votre code: <div style='color:red'>${verificationCode}</div>`
 			);
 		} catch {
 			return fail(400, { message: 'email already in user' });
 		}
 
-		return redirect(302, '/');
+		return redirect(302, '/auth/verify-email');
 	}
 } satisfies Actions;

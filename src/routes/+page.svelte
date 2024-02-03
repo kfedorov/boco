@@ -15,7 +15,7 @@
 Les utilisateurs:
 <ul>
 	{#each data.users as user}
-		<li>{user.username}: {user.email}</li>
+		<li>{user.username}: {user.email}, {user.emailVerified}</li>
 	{/each}
 </ul>
 

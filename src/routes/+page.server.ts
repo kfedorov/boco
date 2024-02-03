@@ -10,7 +10,7 @@ export const load: PageServerLoad = async ({ url, locals }) => {
 	}
 	const users = await db.query.users
 		.findMany({
-			columns: { username: true, email: true }
+			columns: { username: true, email: true, emailVerified: true }
 		})
 		.execute();
 
