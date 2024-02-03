@@ -1,17 +1,21 @@
 import { db } from '$lib/db';
 import type { PageServerLoad } from './$types';
-import { eq } from 'drizzle-orm';
-import { users } from '$lib/dbSchema';
+import { redirect } from '@sveltejs/kit';
 
-export const load: PageServerLoad = async ({ url }) => {
+export const load: PageServerLoad = async ({ url, locals }) => {
+	if (!locals.user) {
+		// TODO: new issue: redirect on back without javascript removes a history entry, but with
+		// js, it actually keeps the status quo, holding the user hostage.
+		return redirect(302, '/auth/login');
+	}
+	const users = await db.query.users
+		.findMany({
+			columns: { username: true, email: true }
+		})
+		.execute();
 
-
-	const user = await db.query.users.findFirst({
-		where: eq(users.id, url.searchParams.get('id') || '')
-	}).execute();
-	console.log(url.searchParams.get('id'), user);
 	return {
 		id: url.searchParams.get('id'),
-		user: user
+		users
 	};
 };

@@ -1,20 +1,13 @@
 {
-  "version": "5",
-  "dialect": "sqlite",
-  "entries": [
-    {
-      "idx": 0,
-      "version": "5",
-      "when": 1706659951451,
-      "tag": "0000_reflective_kingpin",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "5",
-      "when": 1706660268979,
-      "tag": "0001_curious_night_thrasher",
-      "breakpoints": true
-    }
-  ]
+	"version": "5",
+	"dialect": "sqlite",
+	"entries": [
+		{
+			"idx": 0,
+			"version": "5",
+			"when": 1706918206387,
+			"tag": "0000_fast_sasquatch",
+			"breakpoints": true
+		}
+	]
 }
