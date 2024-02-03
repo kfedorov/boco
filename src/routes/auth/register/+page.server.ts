@@ -1,11 +1,11 @@
-import type { PageServerLoad, Actions } from './$types';
+import type { Actions, PageServerLoad } from './$types';
 import { fail, redirect } from '@sveltejs/kit';
 import { db } from '$lib/db';
-import { eq } from 'drizzle-orm';
 import { users } from '$lib/dbSchema';
 import { Argon2id } from 'oslo/password';
 import { lucia } from '$lib/server/auth';
 import { generateId } from 'lucia';
+import { sendMail } from '$lib/mail';
 
 export const load = (async (event) => {
 	if (event.locals.user) {
@@ -54,9 +54,16 @@ export const actions = {
 				...sessionCookie.attributes
 			});
 
-			return redirect(302, '/');
+			await sendMail(
+				email,
+				'Nouveau Compte',
+				`Félicitations! ${username}`,
+				"<div style='color:red'>Félicitations</div>"
+			);
 		} catch {
 			return fail(400, { message: 'email already in user' });
 		}
+
+		return redirect(302, '/');
 	}
 } satisfies Actions;
