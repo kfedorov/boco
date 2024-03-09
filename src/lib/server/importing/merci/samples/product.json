@@ -1,0 +1,59 @@
+{
+    "id": 131875,
+    "name": "PAPRIKA FUMÉ BIO CAISSE",
+    "slug": "organic-smoked-paprika-case-kg",
+    "parent": 16743,
+    "type": "variation",
+    "variation": "Type: Kg",
+    "permalink": "https://alimentsmerci.com/produit/organic-smoked-paprika-case/?attribute_type=Kg",
+    "sku": "VRREPEBVREB1305",
+    "short_description": "",
+    "description": "<p>KG</p>",
+    "on_sale": false,
+    "prices": {
+        "price": "3679",
+        "regular_price": "3679",
+        "sale_price": "3679",
+        "price_range": null,
+        "currency_code": "CAD",
+        "currency_symbol": "$",
+        "currency_minor_unit": 2,
+        "currency_decimal_separator": ".",
+        "currency_thousand_separator": ",",
+        "currency_prefix": "$",
+        "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>36.79</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+        {
+            "id": 177018,
+            "src": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-scaled.jpg",
+            "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-300x300.jpg",
+            "srcset": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-scaled.jpg 2560w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-1024x1024.jpg 1024w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-768x768.jpg 768w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-1536x1536.jpg 1536w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-2048x2048.jpg 2048w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-600x600.jpg 600w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-32x32.jpg 32w",
+            "sizes": "(max-width: 2560px) 100vw, 2560px",
+            "name": "paprika fumÉ bio caisse",
+            "alt": "paprika fumÉ bio caisse"
+        }
+    ],
+    "categories": [],
+    "tags": [],
+    "attributes": [],
+    "variations": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "sold_individually": false,
+    "add_to_cart": {
+        "text": "Ajouter au panier",
+        "description": "Ajouter au panier : &ldquo;PAPRIKA FUMÉ BIO CAISSE &#8211; Kg&rdquo;",
+        "url": "https://alimentsmerci.com/produit/organic-smoked-paprika-case/?attribute_type=Kg&#038;variation_id=131875&#038;add-to-cart=16743",
+        "minimum": 1,
+        "maximum": 9999,
+        "multiple_of": 1
+    },
+    "extensions": {}
+}

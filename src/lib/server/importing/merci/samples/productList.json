@@ -1,0 +1,1278 @@
+[
+    {
+        "id": 16743,
+        "name": "PAPRIKA FUMÉ BIO CAISSE",
+        "slug": "organic-smoked-paprika-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/organic-smoked-paprika-case/",
+        "sku": "VRREPEBVREB1305",
+        "short_description": "<p>PAPRIKA FUMÉ BIO CAISSE</p>",
+        "description": "<p>PAPRIKA FUMÉ BIO CAISSE</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "3679",
+            "regular_price": "3679",
+            "sale_price": "3679",
+            "price_range": {
+                "min_amount": "3679",
+                "max_amount": "47029"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>36.79</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>470.29</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 177018,
+                "src": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-scaled.jpg",
+                "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-300x300.jpg",
+                "srcset": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-scaled.jpg 2560w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-1024x1024.jpg 1024w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-768x768.jpg 768w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-1536x1536.jpg 1536w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-2048x2048.jpg 2048w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-600x600.jpg 600w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrepebvreb1305-6-32x32.jpg 32w",
+                "sizes": "(max-width: 2560px) 100vw, 2560px",
+                "name": "paprika fumÉ bio caisse",
+                "alt": "paprika fumÉ bio caisse"
+            }
+        ],
+        "categories": [
+            {
+                "id": 1294,
+                "name": "ÉPICES BIO",
+                "slug": "epices-bio-1254",
+                "link": "https://alimentsmerci.com/categorie-produit/epices-herbes-et-thes/epices-bio-1254/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            },
+            {
+                "id": 1766,
+                "name": "Produit Bio",
+                "slug": "bio",
+                "link": "https://alimentsmerci.com/etiquette-produit/bio/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 131873,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 131874,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 131875,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;PAPRIKA FUMÉ BIO CAISSE&rdquo;",
+            "url": "https://alimentsmerci.com/produit/organic-smoked-paprika-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 16803,
+        "name": "GELATIN POWDER 25.02KG CASE",
+        "slug": "gelatin-powder-25-02kg-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/gelatin-powder-25-02kg-case/",
+        "sku": "EPRVRVRVRDI1011",
+        "short_description": "<p>GELATIN POWDER 25.02KG CASE</p>",
+        "description": "<p>GELATIN POWDER 25.02KG CASE</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "4649",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [],
+        "categories": [],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": false,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;GELATIN POWDER 25.02KG CASE&rdquo;",
+            "url": "https://alimentsmerci.com/produit/gelatin-powder-25-02kg-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 16837,
+        "name": "PAPRIKA ESPAGNOL CAISSE",
+        "slug": "spanish-paprika-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/spanish-paprika-case/",
+        "sku": "VRRVRVRVREP1198",
+        "short_description": "<p>PAPRIKA ESPAGNOL CAISSE</p>",
+        "description": "<p>PAPRIKA ESPAGNOL CAISSE</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "1449",
+            "regular_price": "1449",
+            "sale_price": "1449",
+            "price_range": {
+                "min_amount": "1449",
+                "max_amount": "23049"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>14.49</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>230.49</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 177023,
+                "src": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-scaled.jpg",
+                "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-300x300.jpg",
+                "srcset": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-scaled.jpg 2560w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-1024x1024.jpg 1024w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-768x768.jpg 768w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-1536x1536.jpg 1536w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-2048x2048.jpg 2048w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-600x600.jpg 600w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1198-4-32x32.jpg 32w",
+                "sizes": "(max-width: 2560px) 100vw, 2560px",
+                "name": "paprika espagnol caisse",
+                "alt": "paprika espagnol caisse"
+            }
+        ],
+        "categories": [
+            {
+                "id": 1296,
+                "name": "ÉPICES",
+                "slug": "epices-1254",
+                "link": "https://alimentsmerci.com/categorie-produit/epices-herbes-et-thes/epices-1254/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 132256,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 132257,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 132258,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;PAPRIKA ESPAGNOL CAISSE&rdquo;",
+            "url": "https://alimentsmerci.com/produit/spanish-paprika-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 16861,
+        "name": "THÉ CHAI MASALA BIO CAISSE",
+        "slug": "organic-fair-trade-chai-masala-tea-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/organic-fair-trade-chai-masala-tea-case/",
+        "sku": "VRBVRVBVRTH1012",
+        "short_description": "<p>THÉ CHAI MASALA BIO CAISSE</p>",
+        "description": "<p>THÉ CHAI MASALA BIO CAISSE</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "11929",
+            "regular_price": "11929",
+            "sale_price": "11929",
+            "price_range": {
+                "min_amount": "11929",
+                "max_amount": "114999"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>119.29</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>1,149.99</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [],
+        "categories": [
+            {
+                "id": 1254,
+                "name": "Épices, Herbes et Thés",
+                "slug": "epices-herbes-et-thes",
+                "link": "https://alimentsmerci.com/categorie-produit/epices-herbes-et-thes/"
+            },
+            {
+                "id": 1318,
+                "name": "THÉ ALIMENTS MERCI",
+                "slug": "the-aliments-merci-1254",
+                "link": "https://alimentsmerci.com/categorie-produit/epices-herbes-et-thes/the-aliments-merci-1254/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            },
+            {
+                "id": 1766,
+                "name": "Produit Bio",
+                "slug": "bio",
+                "link": "https://alimentsmerci.com/etiquette-produit/bio/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 132307,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 132308,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 132309,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;THÉ CHAI MASALA BIO CAISSE&rdquo;",
+            "url": "https://alimentsmerci.com/produit/organic-fair-trade-chai-masala-tea-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 16871,
+        "name": "SUCRE TURBINADO FIN BIO CAISSE",
+        "slug": "organic-fine-turbinado-sugar-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/organic-fine-turbinado-sugar-case/",
+        "sku": "EPRVRVBVRSU1003",
+        "short_description": "<p>SUCRE TURBINADO FIN BIO CAISSE</p>",
+        "description": "<p>SUCRE TURBINADO FIN BIO CAISSE</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "479",
+            "regular_price": "479",
+            "sale_price": "479",
+            "price_range": {
+                "min_amount": "479",
+                "max_amount": "6949"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>4.79</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>69.49</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 208129,
+                "src": "https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-scaled.jpg",
+                "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-300x300.jpg",
+                "srcset": "https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-scaled.jpg 2560w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-1024x1024.jpg 1024w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-768x768.jpg 768w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-1536x1536.jpg 1536w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-2048x2048.jpg 2048w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-600x600.jpg 600w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2024/01/aliments-merci-eprvrvbvrsu1003-32x32.jpg 32w",
+                "sizes": "(max-width: 2560px) 100vw, 2560px",
+                "name": "sucre turbinado fin bio caisse",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 1248,
+                "name": "Boulangerie",
+                "slug": "boulangerie",
+                "link": "https://alimentsmerci.com/categorie-produit/boulangerie/"
+            },
+            {
+                "id": 1316,
+                "name": "SEL ET SUCRE ALIMENTS MERCI",
+                "slug": "sel-et-sucre-aliments-merci-1248",
+                "link": "https://alimentsmerci.com/categorie-produit/boulangerie/sel-et-sucre-aliments-merci-1248/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            },
+            {
+                "id": 1766,
+                "name": "Produit Bio",
+                "slug": "bio",
+                "link": "https://alimentsmerci.com/etiquette-produit/bio/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 132322,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 132323,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 132324,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;SUCRE TURBINADO FIN BIO CAISSE&rdquo;",
+            "url": "https://alimentsmerci.com/produit/organic-fine-turbinado-sugar-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 16909,
+        "name": "CHILI ZAPATTA CAISSE",
+        "slug": "chili-zapatta-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/chili-zapatta-case/",
+        "sku": "VRRVRVRVREP1265",
+        "short_description": "<p>CHILI ZAPATTA CAISSE</p>",
+        "description": "<p>CHILI ZAPATTA CAISSE</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "1299",
+            "regular_price": "1299",
+            "sale_price": "1299",
+            "price_range": {
+                "min_amount": "1299",
+                "max_amount": "18599"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>12.99</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>185.99</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 185387,
+                "src": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-scaled.jpg",
+                "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-300x300.jpg",
+                "srcset": "https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-scaled.jpg 2560w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-1024x1024.jpg 1024w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-768x768.jpg 768w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-1536x1536.jpg 1536w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-2048x2048.jpg 2048w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-600x600.jpg 600w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2023/06/aliments-merci-vrrvrvrvrep1265-2-32x32.jpg 32w",
+                "sizes": "(max-width: 2560px) 100vw, 2560px",
+                "name": "chili zapatta caisse",
+                "alt": "chili zapatta caisse"
+            }
+        ],
+        "categories": [
+            {
+                "id": 1296,
+                "name": "ÉPICES",
+                "slug": "epices-1254",
+                "link": "https://alimentsmerci.com/categorie-produit/epices-herbes-et-thes/epices-1254/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 132395,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 132396,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 132397,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;CHILI ZAPATTA CAISSE&rdquo;",
+            "url": "https://alimentsmerci.com/produit/chili-zapatta-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 16924,
+        "name": "ANIS MOULU CAISSE (TURQUIE)",
+        "slug": "ground-anise-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/ground-anise-case/",
+        "sku": "VRRVRVRVREP1006",
+        "short_description": "<p>ANIS MOULU CAISSE (TURQUIE)</p>",
+        "description": "<p>ANIS MOULU CAISSE (TURQUIE)</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "2049",
+            "regular_price": "2049",
+            "sale_price": "2049",
+            "price_range": {
+                "min_amount": "2049",
+                "max_amount": "33019"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>20.49</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>330.19</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 198077,
+                "src": "https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-scaled.jpg",
+                "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-300x300.jpg",
+                "srcset": "https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-scaled.jpg 2560w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-1024x1024.jpg 1024w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-768x768.jpg 768w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-1536x1536.jpg 1536w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-2048x2048.jpg 2048w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-600x600.jpg 600w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvrvrep1006-32x32.jpg 32w",
+                "sizes": "(max-width: 2560px) 100vw, 2560px",
+                "name": "anis moulu caisse",
+                "alt": "anis moulu caisse"
+            }
+        ],
+        "categories": [
+            {
+                "id": 1296,
+                "name": "ÉPICES",
+                "slug": "epices-1254",
+                "link": "https://alimentsmerci.com/categorie-produit/epices-herbes-et-thes/epices-1254/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            },
+            {
+                "id": 1766,
+                "name": "Produit Bio",
+                "slug": "bio",
+                "link": "https://alimentsmerci.com/etiquette-produit/bio/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 161509,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 161510,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 161511,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;ANIS MOULU CAISSE (TURQUIE)&rdquo;",
+            "url": "https://alimentsmerci.com/produit/ground-anise-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 17011,
+        "name": "GRAINS AMARANTE BIO CAISSE (INDE)",
+        "slug": "organic-amaranth-seeds-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/organic-amaranth-seeds-case/",
+        "sku": "VRRVRVBVRCE1180",
+        "short_description": "<p>GRAINS AMARANTE BIO CAISSE (INDE)</p>",
+        "description": "<p>GRAINS AMARANTE BIO CAISSE (INDE)</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "799",
+            "regular_price": "799",
+            "sale_price": "799",
+            "price_range": {
+                "min_amount": "799",
+                "max_amount": "5829"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>7.99</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>58.29</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 198229,
+                "src": "https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180.jpg",
+                "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180-300x300.jpg",
+                "srcset": "https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180.jpg 800w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180-768x768.jpg 768w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180-600x600.jpg 600w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2023/07/aliments-merci-vrrvrvbvrce1180-32x32.jpg 32w",
+                "sizes": "(max-width: 800px) 100vw, 800px",
+                "name": "grains amarante bio caisse",
+                "alt": "grains amarante bio caisse"
+            }
+        ],
+        "categories": [
+            {
+                "id": 1286,
+                "name": "CÉREALES ALIMENTS MERCI",
+                "slug": "cereales-aliments-merci-1260",
+                "link": "https://alimentsmerci.com/categorie-produit/epicerie/cereales-aliments-merci-1260/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            },
+            {
+                "id": 1766,
+                "name": "Produit Bio",
+                "slug": "bio",
+                "link": "https://alimentsmerci.com/etiquette-produit/bio/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 132595,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 132596,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 132597,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;GRAINS AMARANTE BIO CAISSE (INDE)&rdquo;",
+            "url": "https://alimentsmerci.com/produit/organic-amaranth-seeds-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 17111,
+        "name": "CURCUMA MOULU CAISSE (INDE)",
+        "slug": "ground-turmeric-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/ground-turmeric-case/",
+        "sku": "VRRVRVRVREP1759",
+        "short_description": "<p>CURCUMA MOULU CAISSE (INDE)</p>",
+        "description": "<p>CURCUMA MOULU CAISSE (INDE)</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "1234",
+            "regular_price": "1234",
+            "sale_price": "1234",
+            "price_range": {
+                "min_amount": "1234",
+                "max_amount": "19814"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>12.34</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>198.14</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 209743,
+                "src": "https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-scaled.jpg",
+                "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-300x300.jpg",
+                "srcset": "https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-scaled.jpg 2560w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-1024x1024.jpg 1024w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-768x768.jpg 768w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-1536x1536.jpg 1536w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-2048x2048.jpg 2048w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-600x600.jpg 600w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2024/02/aliments-merci-vrrvrvrvrep1759-32x32.jpg 32w",
+                "sizes": "(max-width: 2560px) 100vw, 2560px",
+                "name": "curcuma moulu caisse (inde)",
+                "alt": ""
+            }
+        ],
+        "categories": [
+            {
+                "id": 1296,
+                "name": "ÉPICES",
+                "slug": "epices-1254",
+                "link": "https://alimentsmerci.com/categorie-produit/epices-herbes-et-thes/epices-1254/"
+            },
+            {
+                "id": 1254,
+                "name": "Épices, Herbes et Thés",
+                "slug": "epices-herbes-et-thes",
+                "link": "https://alimentsmerci.com/categorie-produit/epices-herbes-et-thes/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 132746,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 132747,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 132748,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;CURCUMA MOULU CAISSE (INDE)&rdquo;",
+            "url": "https://alimentsmerci.com/produit/ground-turmeric-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    },
+    {
+        "id": 17118,
+        "name": "FARINE DE BLÉ ENTIER PÂTISSERIE BIO CAISSE (CANADA)",
+        "slug": "organic-pastry-whole-wheat-flour-20kg-case",
+        "parent": 0,
+        "type": "variable",
+        "variation": "",
+        "permalink": "https://alimentsmerci.com/produit/organic-pastry-whole-wheat-flour-20kg-case/",
+        "sku": "EPRVRVBVRFA1013",
+        "short_description": "<p>FARINE DE BLÉ ENTIER PÂTISSERIE BIO CAISSE (CANADA)</p>",
+        "description": "<p>FARINE DE BLÉ ENTIER PÂTISSERIE BIO CAISSE (CANADA)</p>",
+        "on_sale": false,
+        "prices": {
+            "price": "349",
+            "regular_price": "349",
+            "sale_price": "349",
+            "price_range": {
+                "min_amount": "349",
+                "max_amount": "4249"
+            },
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>3.49</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;</span>42.49</span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [
+            {
+                "id": 200527,
+                "src": "https://alimentsmerci.com/wp-content/uploads/2023/08/aliments-merci-eprvrvbvrfa1013.jpg",
+                "thumbnail": "https://alimentsmerci.com/wp-content/uploads/2023/08/aliments-merci-eprvrvbvrfa1013-300x300.jpg",
+                "srcset": "https://alimentsmerci.com/wp-content/uploads/2023/08/aliments-merci-eprvrvbvrfa1013.jpg 560w, https://alimentsmerci.com/wp-content/uploads/2023/08/aliments-merci-eprvrvbvrfa1013-300x300.jpg 300w, https://alimentsmerci.com/wp-content/uploads/2023/08/aliments-merci-eprvrvbvrfa1013-150x150.jpg 150w, https://alimentsmerci.com/wp-content/uploads/2023/08/aliments-merci-eprvrvbvrfa1013-100x100.jpg 100w, https://alimentsmerci.com/wp-content/uploads/2023/08/aliments-merci-eprvrvbvrfa1013-32x32.jpg 32w",
+                "sizes": "(max-width: 560px) 100vw, 560px",
+                "name": "farine de blÉ entier pÂtisserie bio caisse (canada)",
+                "alt": "farine de blÉ entier pÂtisserie bio caisse (canada)"
+            }
+        ],
+        "categories": [
+            {
+                "id": 1298,
+                "name": "FARINE ET SEMOULE ALIMENTS MERCI",
+                "slug": "farine-et-semoule-aliments-merci-1248",
+                "link": "https://alimentsmerci.com/categorie-produit/boulangerie/farine-et-semoule-aliments-merci-1248/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1765,
+                "name": "En vrac",
+                "slug": "vrac",
+                "link": "https://alimentsmerci.com/etiquette-produit/vrac/"
+            },
+            {
+                "id": 1766,
+                "name": "Produit Bio",
+                "slug": "bio",
+                "link": "https://alimentsmerci.com/etiquette-produit/bio/"
+            }
+        ],
+        "attributes": [
+            {
+                "id": 0,
+                "name": "Type",
+                "taxonomy": null,
+                "has_variations": true,
+                "terms": [
+                    {
+                        "id": 0,
+                        "name": "Cse",
+                        "slug": "Cse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "DemiCse",
+                        "slug": "DemiCse"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Kg",
+                        "slug": "Kg"
+                    }
+                ]
+            }
+        ],
+        "variations": [
+            {
+                "id": 132776,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Cse"
+                    }
+                ]
+            },
+            {
+                "id": 132777,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "DemiCse"
+                    }
+                ]
+            },
+            {
+                "id": 132778,
+                "attributes": [
+                    {
+                        "name": "Type",
+                        "value": "Kg"
+                    }
+                ]
+            }
+        ],
+        "has_options": true,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "add_to_cart": {
+            "text": "Choix des options",
+            "description": "Sélectionner les options pour &ldquo;FARINE DE BLÉ ENTIER PÂTISSERIE BIO CAISSE (CANADA)&rdquo;",
+            "url": "https://alimentsmerci.com/produit/organic-pastry-whole-wheat-flour-20kg-case/",
+            "minimum": 1,
+            "maximum": 9999,
+            "multiple_of": 1
+        },
+        "extensions": {}
+    }
+]
