@@ -12,14 +12,15 @@
     }
 </script>
 
-Les utilisateurs:
+Mes collectifs:
 <ul>
-    {#each data.users as user}
-        <li>{user.username}: {user.email}, {user.emailVerified}</li>
+    {#each data.collectives as collective}
+        <li><a href="/collectives/{collective.id}">{collective.name}</a></li>
     {/each}
 </ul>
 
-<a href="/b">To B</a>
+<a href="/collectives">Rejoindre un collectif</a>
+
 
 <!-- Href is for no js . -->
-<a on:click={logout} href="/auth/logout">Se déconnecter</a>
+<a data-sveltekit-preload-data="tap" on:click={logout} href="/auth/logout">Se déconnecter</a>

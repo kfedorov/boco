@@ -6,7 +6,7 @@ import { migrate } from 'drizzle-orm/better-sqlite3/migrator';
 let sqliteDB: sqlite.Database;
 let db: BetterSQLite3Database<typeof schema>;
 
-if (import.meta.env.MODE === 'test') {
+if (import.meta.env && import.meta.env.MODE === 'test') {
     sqliteDB = new sqlite();
     db = drizzle(sqliteDB, { schema });
     migrate(db, { migrationsFolder: './drizzle' });

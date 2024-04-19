@@ -1,6 +1,8 @@
 import { db } from '$lib/db';
 import type { PageServerLoad } from './$types';
 import { redirect } from '@sveltejs/kit';
+import { CollectiveMembers, Collectives } from '$lib/dbSchema';
+import { eq } from 'drizzle-orm';
 
 export const load: PageServerLoad = async ({ url, locals }) => {
     if (!locals.user) {
@@ -8,12 +10,17 @@ export const load: PageServerLoad = async ({ url, locals }) => {
         // js, it actually keeps the status quo, holding the user hostage.
         return redirect(302, '/auth/login');
     }
-    const users = await db.query.Users.findMany({
-        columns: { username: true, email: true, emailVerified: true }
-    }).execute();
+    const collectives = await db
+        .select({
+            id: Collectives.id,
+            name: Collectives.name
+        })
+        .from(Collectives)
+        .innerJoin(CollectiveMembers, eq(Collectives.id, CollectiveMembers.collectiveId))
+        .where(eq(CollectiveMembers.userId, locals.user.id))
+        .execute();
 
     return {
-        id: url.searchParams.get('id'),
-        users
+        collectives
     };
 };

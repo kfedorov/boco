@@ -1,4 +1,4 @@
-import { integer, sqliteTable, text, unique } from 'drizzle-orm/sqlite-core';
+import { integer, sqliteTable, text, unique, primaryKey } from 'drizzle-orm/sqlite-core';
 import { relations, sql } from 'drizzle-orm';
 
 export const Users = sqliteTable('user', {
@@ -15,6 +15,55 @@ export const Sessions = sqliteTable('session', {
     userId: text('user_id')
         .notNull()
         .references(() => Users.id, { onDelete: 'cascade' })
+});
+
+export const Collectives = sqliteTable('collective', {
+    id: integer('id', { mode: 'number' }).primaryKey({ autoIncrement: true }),
+    name: text('name').notNull(),
+    description: text('description').notNull()
+});
+
+export const CollectiveMembers = sqliteTable(
+    'collective_member',
+    {
+        collectiveId: integer('collective_id')
+            .references(() => Collectives.id)
+            .notNull(),
+        userId: text('user_id')
+            .references(() => Users.id)
+            .notNull(),
+        role: text('role', { enum: ['member', 'manager', 'owner'] })
+            .notNull()
+            .default('member')
+    },
+    (table) => ({
+        collectiveUserId: primaryKey({ columns: [table.collectiveId, table.userId] })
+    })
+);
+
+export const CollectiveRelations = relations(Collectives, ({ many }) => {
+    return {
+        members: many(CollectiveMembers)
+    };
+});
+
+export const UserRelations = relations(Users, ({ many }) => {
+    return {
+        collectives: many(CollectiveMembers)
+    };
+});
+
+export const CollectiveMembersRelations = relations(CollectiveMembers, ({ one }) => {
+    return {
+        user: one(Users, {
+            fields: [CollectiveMembers.userId],
+            references: [Users.id]
+        }),
+        collective: one(Collectives, {
+            fields: [CollectiveMembers.collectiveId],
+            references: [Collectives.id]
+        })
+    };
 });
 
 export const EmailVerificationCodes = sqliteTable('email_verification_code', {
